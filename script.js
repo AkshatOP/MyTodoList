@@ -1,5 +1,8 @@
-const AUTH_URL = "http://localhost:3000/api/auth"; // Auth URL
-const API_URL = "http://localhost:3000/api/todo"; // Backend URL
+//https://mytodolist-1-is65.onrender.com - frontend url
+//https://mytodolist-64uw.onrender.com - backend url
+
+const AUTH_URL = "https://mytodolist-64uw.onrender.com/api/auth"; // Auth URL
+const API_URL = "https://mytodolist-64uw.onrender.com/api/todo"; // API URL
 
 document.getElementById("toggleAuth").addEventListener("click", function () {
     const title = document.getElementById("authTitle");

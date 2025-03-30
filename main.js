@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 const mongodb_URL = process.env.MONGO_URI;
 
 app.use(cors({
-  origin: ["http://127.0.0.1:3001","http://localhost:3001"], //Currently on local host but change according to your frontend 
+  origin: ["https://mytodolist-1-is65.onrender.com"], //my frontend url
   methods: ["GET", "POST", "PUT", "DELETE"], 
   credentials: true 
 }));
